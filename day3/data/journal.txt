@@ -1,0 +1,55 @@
+Oct 02 00:00:01 gen40 su[32453]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 02 00:00:01 gen40 su[32472]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 02 00:00:01 gen40 su[32472]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 02 00:00:01 gen40 su[32476]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 02 00:00:04 gen40 su[32476]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 02 13:48:37 gen40 sshd-session[36271]: error: mm_reap: child terminated by signal 15
+-- Boot 72b7b9de213d4d4298867c74fe571963 --
+Oct 02 14:08:42 mail.msdead.ru sshd-session[1886]: error: mm_reap: child terminated by signal 15
+Oct 02 14:08:42 mail.msdead.ru sshd-session[3846]: error: mm_reap: child terminated by signal 15
+Oct 02 14:08:42 mail.msdead.ru sshd-session[14870]: error: mm_reap: child terminated by signal 15
+-- Boot b0ea0719135346de9547b2699cfd575a --
+Oct 02 14:10:07 mail.msdead.ru kernel: md_update_sb: can't update sb for read-only array md127
+Oct 02 16:43:40 mail.msdead.ru sshd-session[13774]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 02 18:36:12 mail.msdead.ru sshd-session[14390]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 02 18:59:13 mail.msdead.ru sshd-session[24893]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 02 18:59:15 mail.msdead.ru sshd-session[24892]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 02 19:05:01 mail.msdead.ru systemd[1]: Failed to start roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+Oct 02 22:39:50 mail.msdead.ru sshd-session[32568]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 02 23:38:13 mail.msdead.ru sshd-session[33087]: error: Protocol major versions differ: 2 vs. 1
+Oct 03 00:00:01 mail.msdead.ru su[33392]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 03 00:00:02 mail.msdead.ru su[33392]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 03 00:00:02 mail.msdead.ru su[33421]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 03 00:00:02 mail.msdead.ru su[33421]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 03 00:00:02 mail.msdead.ru su[33436]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 03 00:00:27 mail.msdead.ru su[33436]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 03 03:19:31 mail.msdead.ru sshd-session[37576]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 04:08:14 mail.msdead.ru sshd-session[37984]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 07:14:09 mail.msdead.ru sshd-session[39998]: error: Protocol major versions differ: 2 vs. 1
+Oct 03 23:42:43 mail.msdead.ru sshd-session[54272]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:42:49 mail.msdead.ru sshd-session[54273]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:43:38 mail.msdead.ru sshd-session[54282]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:43:49 mail.msdead.ru sshd-session[54283]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:44:33 mail.msdead.ru sshd-session[54292]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:44:38 mail.msdead.ru sshd-session[54293]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:44:46 mail.msdead.ru sshd-session[54294]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 03 23:44:53 mail.msdead.ru sshd-session[54295]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 00:00:01 mail.msdead.ru su[54647]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 04 00:00:01 mail.msdead.ru su[54647]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 04 00:00:01 mail.msdead.ru su[54672]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 04 00:00:01 mail.msdead.ru su[54672]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 04 00:00:02 mail.msdead.ru su[54683]: pam_wtmpdb(su:session): Adding an entry failed: attempt to write a readonly database
+Oct 04 00:00:05 mail.msdead.ru su[54683]: pam_wtmpdb(su:session): Cannot get ID from open session!
+Oct 04 05:38:56 mail.msdead.ru sshd-session[63093]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 07:46:51 mail.msdead.ru sshd-session[64624]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 07:53:14 mail.msdead.ru sshd-session[64674]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 09:32:28 mail.msdead.ru sshd-session[66127]: fatal: userauth_pubkey: parse publickey packet: incomplete message [preauth]
+Oct 04 09:42:21 mail.msdead.ru sshd-session[66301]: error: Protocol major versions differ: 2 vs. 1
+Oct 04 10:39:46 mail.msdead.ru sshd-session[66938]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 11:21:08 mail.msdead.ru sshd-session[67424]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 12:27:24 mail.msdead.ru sshd-session[69566]: error: mm_reap: child terminated by signal 15
+-- Boot 17f41f8305274123a6c4b5dfba20580a --
+Oct 04 12:28:55 mail.msdead.ru kernel: md_update_sb: can't update sb for read-only array md127
+Oct 04 14:02:10 mail.msdead.ru sshd-session[7066]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 14:04:58 mail.msdead.ru sshd-session[7083]: error: kex_exchange_identification: read: Connection reset by peer
+Oct 04 14:14:45 mail.msdead.ru sshd-session[7209]: error: kex_exchange_identification: read: Connection reset by peer
