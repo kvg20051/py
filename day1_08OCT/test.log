@@ -1,0 +1,43 @@
+    2026-10-08 10:01:02 INFO  service started
+    2026-10-08 10:01:05 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:02:11 WARN  slow response 2300ms
+    2026-10-08 10:03:40 ERROR timeout
+    2026-10-08 10:04:00 INFO  request ok
+    2026-10-08 10:05:13 ERROR connection refused
+    2026-10-08 10:05:13 ERROR connection refused

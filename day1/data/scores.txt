@@ -1,0 +1,4 @@
+alice 30
+bob 45
+carol 12
+pete 99

@@ -1,0 +1,500 @@
+2026-10-09T09:09:02.767260+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T09:09:02.979033+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T09:09:02.979633+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T09:10:02.772884+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T09:10:02.818172+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T09:10:02.818479+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T09:17:01.639692+03:00 mail CRON[107890]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-10-09T09:17:09.148262+03:00 mail postfix/smtpd[107892]: connect from unknown[46.151.182.181]
+2026-10-09T09:17:09.438887+03:00 mail postfix/smtpd[107892]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T09:20:02.846622+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T09:20:02.897801+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T09:20:02.898301+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T09:20:29.595087+03:00 mail postfix/anvil[107894]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 09:17:09
+2026-10-09T09:20:29.595508+03:00 mail postfix/anvil[107894]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 09:17:09
+2026-10-09T09:20:29.595617+03:00 mail postfix/anvil[107894]: statistics: max cache size 1 at Oct  9 09:17:09
+2026-10-09T09:25:37.212356+03:00 mail kernel: audit: type=1400 audit(1791527137.210:826): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T09:27:21.565571+03:00 mail postfix/smtpd[107911]: connect from unknown[102.220.161.126]
+2026-10-09T09:27:23.937026+03:00 mail postfix/smtpd[107911]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T09:30:01.657003+03:00 mail CRON[107921]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-10-09T09:30:02.913672+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T09:30:02.962756+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T09:30:02.964056+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T09:30:32.917914+03:00 mail systemd[1]: Started anacron.service - Run anacron jobs.
+2026-10-09T09:30:32.933716+03:00 mail anacron[107927]: Anacron 2.3 started on 2026-10-09
+2026-10-09T09:30:32.934367+03:00 mail anacron[107927]: Normal exit (0 jobs run)
+2026-10-09T09:30:32.936151+03:00 mail systemd[1]: anacron.service: Deactivated successfully.
+2026-10-09T09:30:44.106731+03:00 mail postfix/anvil[107913]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 09:27:21
+2026-10-09T09:30:44.114450+03:00 mail postfix/anvil[107913]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 09:27:21
+2026-10-09T09:30:44.114626+03:00 mail postfix/anvil[107913]: statistics: max cache size 1 at Oct  9 09:27:21
+2026-10-09T09:35:01.687406+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T09:35:01.691450+03:00 mail CRON[107933]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T09:35:01.871509+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T09:35:01.872073+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T09:39:01.721492+03:00 mail CRON[107941]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T09:39:02.981863+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T09:39:03.197097+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T09:39:03.197703+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T09:39:58.917698+03:00 mail postfix/smtpd[107999]: connect from unknown[158.94.211.131]
+2026-10-09T09:40:00.007802+03:00 mail postfix/smtpd[107999]: disconnect from unknown[158.94.211.131] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T09:40:02.987321+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T09:40:03.035474+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T09:40:03.036081+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T09:41:48.653517+03:00 mail NetworkManager[1051]: <info>  [1791528108.6525] manager: NetworkManager state is now CONNECTED_SITE
+2026-10-09T09:41:48.658203+03:00 mail dbus-daemon[929]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=1051 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2026-10-09T09:41:48.670858+03:00 mail systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2026-10-09T09:41:48.697548+03:00 mail dbus-daemon[929]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2026-10-09T09:41:48.699231+03:00 mail systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2026-10-09T09:41:48.895116+03:00 mail NetworkManager[1051]: <info>  [1791528108.8940] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-10-09T09:41:58.937292+03:00 mail systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-09T09:43:20.172358+03:00 mail postfix/anvil[108001]: statistics: max connection rate 1/60s for (smtp:158.94.211.131) at Oct  9 09:39:58
+2026-10-09T09:43:20.173310+03:00 mail postfix/anvil[108001]: statistics: max connection count 1 for (smtp:158.94.211.131) at Oct  9 09:39:58
+2026-10-09T09:43:20.173713+03:00 mail postfix/anvil[108001]: statistics: max cache size 1 at Oct  9 09:39:58
+2026-10-09T09:45:33.187192+03:00 mail postfix/smtpd[108028]: connect from unknown[46.151.182.181]
+2026-10-09T09:45:33.460304+03:00 mail postfix/smtpd[108028]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T09:48:53.638151+03:00 mail postfix/anvil[108030]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 09:45:33
+2026-10-09T09:48:53.639016+03:00 mail postfix/anvil[108030]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 09:45:33
+2026-10-09T09:48:53.639287+03:00 mail postfix/anvil[108030]: statistics: max cache size 1 at Oct  9 09:45:33
+2026-10-09T09:50:02.436725+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T09:50:02.483953+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T09:50:02.484206+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T09:53:47.628191+03:00 mail systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-10-09T09:53:47.742471+03:00 mail systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-10-09T09:53:47.742900+03:00 mail systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-10-09T09:58:59.554863+03:00 mail smartd[937]: Device: /dev/sda [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 74 to 73
+2026-10-09T10:00:03.122738+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:00:03.173069+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:00:03.173586+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:01:12.300124+03:00 mail postfix/smtpd[108064]: connect from unknown[102.220.161.126]
+2026-10-09T10:01:12.653705+03:00 mail postfix/smtpd[108064]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T10:04:32.816253+03:00 mail postfix/anvil[108066]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 10:01:12
+2026-10-09T10:04:32.824367+03:00 mail postfix/anvil[108066]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 10:01:12
+2026-10-09T10:04:32.824697+03:00 mail postfix/anvil[108066]: statistics: max cache size 1 at Oct  9 10:01:12
+2026-10-09T10:05:01.752041+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T10:05:01.754428+03:00 mail CRON[108071]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T10:05:01.942070+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T10:05:01.942555+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T10:07:23.177382+03:00 mail systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-10-09T10:07:23.290954+03:00 mail fwupdmgr[108076]: Updating lvfs
+2026-10-09T10:07:25.820861+03:00 mail fwupdmgr[108076]: Successfully downloaded new metadata:
+2026-10-09T10:07:25.820940+03:00 mail fwupdmgr[108076]:  • 5 devices are updatable
+2026-10-09T10:07:25.820994+03:00 mail fwupdmgr[108076]:  • 0 devices are supported in the enabled remotes (an update has been published)
+2026-10-09T10:07:25.829742+03:00 mail systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-10-09T10:07:25.830994+03:00 mail systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-10-09T10:09:01.187842+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T10:09:01.403138+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T10:09:01.403366+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T10:09:01.777774+03:00 mail CRON[108151]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T10:10:03.197714+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:10:03.245779+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:10:03.247127+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:14:00.534155+03:00 mail postfix/smtpd[108160]: connect from unknown[46.151.182.181]
+2026-10-09T10:14:00.804828+03:00 mail postfix/smtpd[108160]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T10:15:43.213033+03:00 mail kernel: audit: type=1400 audit(1791530143.211:827): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T10:17:01.801491+03:00 mail CRON[108170]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-10-09T10:17:20.995398+03:00 mail postfix/anvil[108162]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 10:14:00
+2026-10-09T10:17:20.996280+03:00 mail postfix/anvil[108162]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 10:14:00
+2026-10-09T10:17:20.996906+03:00 mail postfix/anvil[108162]: statistics: max cache size 1 at Oct  9 10:14:00
+2026-10-09T10:20:03.261677+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:20:03.308105+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:20:03.308900+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:21:39.189142+03:00 mail postfix/smtpd[108182]: connect from unknown[158.94.211.131]
+2026-10-09T10:21:39.811834+03:00 mail postfix/smtpd[108182]: disconnect from unknown[158.94.211.131] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T10:25:00.011455+03:00 mail postfix/anvil[108184]: statistics: max connection rate 1/60s for (smtp:158.94.211.131) at Oct  9 10:21:39
+2026-10-09T10:25:00.012339+03:00 mail postfix/anvil[108184]: statistics: max connection count 1 for (smtp:158.94.211.131) at Oct  9 10:21:39
+2026-10-09T10:25:00.012605+03:00 mail postfix/anvil[108184]: statistics: max cache size 1 at Oct  9 10:21:39
+2026-10-09T10:29:19.405276+03:00 mail smartd[937]: Device: /dev/sde [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 68 to 67
+2026-10-09T10:29:19.413617+03:00 mail smartd[937]: Device: /dev/sde [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 32 to 33
+2026-10-09T10:30:01.827344+03:00 mail CRON[108195]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-10-09T10:30:03.334768+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:30:03.381719+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:30:03.382396+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:30:23.337701+03:00 mail systemd[1]: Started anacron.service - Run anacron jobs.
+2026-10-09T10:30:23.353502+03:00 mail anacron[108201]: Anacron 2.3 started on 2026-10-09
+2026-10-09T10:30:23.354134+03:00 mail anacron[108201]: Normal exit (0 jobs run)
+2026-10-09T10:30:23.355679+03:00 mail systemd[1]: anacron.service: Deactivated successfully.
+2026-10-09T10:34:05.959634+03:00 mail postfix/smtpd[108204]: connect from unknown[102.220.161.126]
+2026-10-09T10:34:06.260210+03:00 mail postfix/smtpd[108204]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T10:35:01.188693+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T10:35:01.370541+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T10:35:01.371098+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T10:35:01.854602+03:00 mail CRON[108213]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T10:37:26.440094+03:00 mail postfix/anvil[108206]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 10:34:05
+2026-10-09T10:37:26.440911+03:00 mail postfix/anvil[108206]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 10:34:05
+2026-10-09T10:37:26.441780+03:00 mail postfix/anvil[108206]: statistics: max cache size 1 at Oct  9 10:34:05
+2026-10-09T10:39:01.556039+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T10:39:01.752607+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T10:39:01.753021+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T10:39:01.877758+03:00 mail CRON[108274]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T10:39:03.780165+03:00 mail kernel: audit: type=1400 audit(1791531543.778:828): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T10:39:04.740106+03:00 mail kernel: audit: type=1400 audit(1791531544.738:829): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T10:39:07.812055+03:00 mail kernel: audit: type=1400 audit(1791531547.810:830): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T10:40:03.406527+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:40:03.455004+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:40:03.455417+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:42:19.108198+03:00 mail postfix/smtpd[108284]: connect from unknown[46.151.182.181]
+2026-10-09T10:42:19.372041+03:00 mail postfix/smtpd[108284]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T10:45:39.559575+03:00 mail postfix/anvil[108286]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 10:42:19
+2026-10-09T10:45:39.567413+03:00 mail postfix/anvil[108286]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 10:42:19
+2026-10-09T10:45:39.567572+03:00 mail postfix/anvil[108286]: statistics: max cache size 1 at Oct  9 10:42:19
+2026-10-09T10:50:03.473939+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:50:03.513081+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:50:03.513329+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:00:03.550891+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:00:03.597747+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:00:03.599115+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:02:31.224040+03:00 mail kernel: audit: type=1400 audit(1791532951.222:831): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:02:32.138455+03:00 mail kernel: audit: type=1400 audit(1791532952.136:832): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:02:35.210044+03:00 mail kernel: audit: type=1400 audit(1791532955.208:833): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:03:43.573673+03:00 mail systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-10-09T11:03:43.795867+03:00 mail systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-10-09T11:03:43.796871+03:00 mail systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-10-09T11:05:01.914396+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T11:05:01.919179+03:00 mail CRON[108334]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T11:05:02.105225+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T11:05:02.105646+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T11:07:44.982325+03:00 mail postfix/smtpd[108337]: connect from unknown[102.220.161.126]
+2026-10-09T11:07:45.360504+03:00 mail postfix/smtpd[108337]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:09:01.952226+03:00 mail CRON[108344]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T11:09:03.478602+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T11:09:03.702256+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T11:09:03.702953+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T11:10:03.187828+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:10:03.236744+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:10:03.237264+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:10:44.977044+03:00 mail postfix/smtpd[108409]: connect from unknown[46.151.182.181]
+2026-10-09T11:10:45.225952+03:00 mail postfix/smtpd[108409]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:11:01.968822+03:00 mail CRON[108413]: (kvg) CMD (   ~kvg/_Scripts_in_production/_Messages_to_Telegram/SERVICE_invoice.sh)
+2026-10-09T11:13:15.632727+03:00 mail postfix/pickup[108203]: 9A5462E2E74: uid=1000 from=<kvg>
+2026-10-09T11:13:15.642282+03:00 mail postfix/cleanup[108433]: 9A5462E2E74: message-id=<20261009081315.9A5462E2E74@mail.msdead.ru>
+2026-10-09T11:13:15.646283+03:00 mail opendkim[1569]: 9A5462E2E74: DKIM-Signature field added (s=mail, d=msdead.ru)
+2026-10-09T11:13:15.692307+03:00 mail postfix/qmgr[1486]: 9A5462E2E74: from=<kvg@msdead.ru>, size=12028, nrcpt=1 (queue active)
+2026-10-09T11:13:15.711213+03:00 mail postfix/local[108435]: 9A5462E2E74: to=<kvg@msdead.ru>, orig_to=<kvg>, relay=local, delay=0.1, delays=0.08/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+2026-10-09T11:13:15.711547+03:00 mail postfix/qmgr[1486]: 9A5462E2E74: removed
+2026-10-09T11:13:46.387336+03:00 mail postfix/smtpd[108436]: connect from unknown[158.94.211.131]
+2026-10-09T11:13:46.923503+03:00 mail postfix/smtpd[108436]: disconnect from unknown[158.94.211.131] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:17:01.652731+03:00 mail CRON[108442]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-10-09T11:17:07.111069+03:00 mail postfix/anvil[108339]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 11:07:44
+2026-10-09T11:17:07.111463+03:00 mail postfix/anvil[108339]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 11:07:44
+2026-10-09T11:17:07.111573+03:00 mail postfix/anvil[108339]: statistics: max cache size 1 at Oct  9 11:07:44
+2026-10-09T11:20:00.686794+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:20:00.737106+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:20:00.737530+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:22:24.215036+03:00 mail kernel: audit: type=1400 audit(1791534144.213:834): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:29:50.175031+03:00 mail kernel: audit: type=1400 audit(1791534590.173:835): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:29:50.582127+03:00 mail kernel: audit: type=1400 audit(1791534590.580:836): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470536572766572 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:29:53.653047+03:00 mail kernel: audit: type=1400 audit(1791534593.651:837): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T11:30:00.687531+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:30:00.735480+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:30:00.736256+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:30:01.671802+03:00 mail CRON[108470]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-10-09T11:34:33.790662+03:00 mail systemd[1]: Started anacron.service - Run anacron jobs.
+2026-10-09T11:34:33.811053+03:00 mail anacron[108473]: Anacron 2.3 started on 2026-10-09
+2026-10-09T11:34:33.811636+03:00 mail anacron[108473]: Normal exit (0 jobs run)
+2026-10-09T11:34:33.813330+03:00 mail systemd[1]: anacron.service: Deactivated successfully.
+2026-10-09T11:35:01.708779+03:00 mail CRON[108479]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T11:35:01.709212+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T11:35:01.880357+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T11:35:01.880905+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T11:39:01.687718+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T11:39:01.724810+03:00 mail CRON[108485]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T11:39:01.907509+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T11:39:01.908199+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T11:39:16.674161+03:00 mail postfix/smtpd[108542]: connect from unknown[46.151.182.181]
+2026-10-09T11:39:16.960246+03:00 mail postfix/smtpd[108542]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:40:03.825942+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:40:03.875424+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:40:03.875923+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:41:56.293443+03:00 mail postfix/smtpd[108550]: connect from unknown[102.220.161.126]
+2026-10-09T11:41:56.691293+03:00 mail postfix/smtpd[108550]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:45:16.884082+03:00 mail postfix/anvil[108544]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 11:39:16
+2026-10-09T11:45:16.892648+03:00 mail postfix/anvil[108544]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 11:39:16
+2026-10-09T11:45:16.893015+03:00 mail postfix/anvil[108544]: statistics: max cache size 1 at Oct  9 11:39:16
+2026-10-09T11:50:03.897524+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T11:50:03.944479+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T11:50:03.945043+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T11:54:58.314561+03:00 mail postfix/smtpd[108574]: connect from unknown[158.94.211.131]
+2026-10-09T11:54:58.894409+03:00 mail postfix/smtpd[108574]: disconnect from unknown[158.94.211.131] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T11:58:19.069558+03:00 mail postfix/anvil[108576]: statistics: max connection rate 1/60s for (smtp:158.94.211.131) at Oct  9 11:54:58
+2026-10-09T11:58:19.077164+03:00 mail postfix/anvil[108576]: statistics: max connection count 1 for (smtp:158.94.211.131) at Oct  9 11:54:58
+2026-10-09T11:58:19.077472+03:00 mail postfix/anvil[108576]: statistics: max cache size 1 at Oct  9 11:54:58
+2026-10-09T12:00:01.751598+03:00 mail CRON[108582]: (root) CMD (test -x /usr/bin/certbot -a \! -d /run/systemd/system && perl -e 'sleep int(rand(43200))' && certbot -q renew --no-random-sleep-on-renew)
+2026-10-09T12:00:03.966538+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:00:04.014895+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:00:04.015412+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:05:01.786081+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T12:05:01.786658+03:00 mail CRON[108593]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T12:05:01.968989+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T12:05:01.970484+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T12:07:43.976573+03:00 mail postfix/smtpd[108595]: connect from unknown[46.151.182.181]
+2026-10-09T12:07:44.248365+03:00 mail postfix/smtpd[108595]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T12:09:01.810175+03:00 mail CRON[108602]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T12:09:03.478797+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T12:09:03.694525+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T12:09:03.695212+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T12:10:04.032140+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:10:04.082346+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:10:04.082799+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:11:04.440179+03:00 mail postfix/anvil[108597]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 12:07:43
+2026-10-09T12:11:04.440874+03:00 mail postfix/anvil[108597]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 12:07:43
+2026-10-09T12:11:04.441451+03:00 mail postfix/anvil[108597]: statistics: max cache size 1 at Oct  9 12:07:43
+2026-10-09T12:15:32.766153+03:00 mail postfix/smtpd[108671]: connect from unknown[102.220.161.126]
+2026-10-09T12:15:45.216847+03:00 mail postfix/smtpd[108671]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T12:17:01.833922+03:00 mail CRON[108676]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-10-09T12:19:05.393765+03:00 mail postfix/anvil[108673]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 12:15:32
+2026-10-09T12:19:05.394640+03:00 mail postfix/anvil[108673]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 12:15:32
+2026-10-09T12:19:05.394904+03:00 mail postfix/anvil[108673]: statistics: max cache size 1 at Oct  9 12:15:32
+2026-10-09T12:20:04.112770+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:20:04.162185+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:20:04.162696+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:23:44.138087+03:00 mail systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-10-09T12:23:44.260150+03:00 mail systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-10-09T12:23:44.260510+03:00 mail systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-10-09T12:25:53.541589+03:00 mail systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-10-09T12:25:53.544494+03:00 mail systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-10-09T12:25:53.576117+03:00 mail systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-10-09T12:25:53.580205+03:00 mail systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-10-09T12:25:53.934010+03:00 mail systemd[108703]: /usr/lib/systemd/user/spice-vdagent.service:23: Unknown key 'StandardError' in section [Install], ignoring.
+2026-10-09T12:25:53.954415+03:00 mail systemd[108703]: Queued start job for default target default.target.
+2026-10-09T12:25:53.966544+03:00 mail systemd[108703]: Created slice app.slice - User Application Slice.
+2026-10-09T12:25:53.967518+03:00 mail systemd[108703]: Created slice session.slice - User Core Session Slice.
+2026-10-09T12:25:53.967853+03:00 mail systemd[108703]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2026-10-09T12:25:53.968107+03:00 mail systemd[108703]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2026-10-09T12:25:53.968309+03:00 mail systemd[108703]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2026-10-09T12:25:53.968477+03:00 mail systemd[108703]: Started ubuntu-insights-collect.timer - "Run Ubuntu-Insights collect 5 mins after boot and every month relative to the activation time".
+2026-10-09T12:25:53.968654+03:00 mail systemd[108703]: Started ubuntu-insights-upload.timer - "Run Ubuntu-Insights upload 8 mins after boot and every week relative to the activation time".
+2026-10-09T12:25:53.968789+03:00 mail systemd[108703]: Reached target paths.target - Paths.
+2026-10-09T12:25:53.968927+03:00 mail systemd[108703]: Reached target timers.target - Timers.
+2026-10-09T12:25:53.972130+03:00 mail systemd[108703]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-10-09T12:25:53.972480+03:00 mail systemd[108703]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-10-09T12:25:53.972685+03:00 mail systemd[108703]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2026-10-09T12:25:53.972759+03:00 mail systemd[108703]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-10-09T12:25:53.972838+03:00 mail systemd[108703]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-10-09T12:25:53.975367+03:00 mail systemd[108703]: Starting gpg-agent.socket - GnuPG cryptographic agent and passphrase cache...
+2026-10-09T12:25:53.975694+03:00 mail systemd[108703]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-10-09T12:25:53.975896+03:00 mail systemd[108703]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+2026-10-09T12:25:53.976125+03:00 mail systemd[108703]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+2026-10-09T12:25:53.976343+03:00 mail systemd[108703]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2026-10-09T12:25:53.976534+03:00 mail systemd[108703]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2026-10-09T12:25:53.976718+03:00 mail systemd[108703]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+2026-10-09T12:25:53.979153+03:00 mail systemd[108703]: Starting ssh-agent.socket - OpenSSH Agent socket...
+2026-10-09T12:25:53.982041+03:00 mail systemd[108703]: Listening on systemd-ask-password.socket - Query the User Interactively for a Password.
+2026-10-09T12:25:54.011096+03:00 mail systemd[108703]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-10-09T12:25:54.017629+03:00 mail systemd[108703]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+2026-10-09T12:25:54.019331+03:00 mail systemd[108703]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-10-09T12:25:54.024175+03:00 mail systemd[108703]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+2026-10-09T12:25:54.048659+03:00 mail systemd[108703]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2026-10-09T12:25:54.051113+03:00 mail systemd[108703]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-10-09T12:25:54.076330+03:00 mail systemd[108703]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-10-09T12:25:54.076792+03:00 mail systemd[108703]: Reached target sockets.target - Sockets.
+2026-10-09T12:25:54.077605+03:00 mail systemd[108703]: Reached target basic.target - Basic System.
+2026-10-09T12:25:54.077897+03:00 mail systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-10-09T12:25:54.081351+03:00 mail systemd[108703]: Starting dbus.service - D-Bus User Message Bus...
+2026-10-09T12:25:54.086786+03:00 mail systemd[1]: Started session-820.scope - Session 820 of User kvg.
+2026-10-09T12:25:54.090803+03:00 mail systemd[108703]: Started pipewire.service - PipeWire Multimedia Service.
+2026-10-09T12:25:54.100782+03:00 mail systemd[108703]: Started snap.prompting-client.daemon.service - Service for snap application prompting-client.daemon.
+2026-10-09T12:25:54.105398+03:00 mail systemd[108703]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2026-10-09T12:25:54.106175+03:00 mail systemd[108703]: ubuntu-insights-collect.service: unit configures an IP firewall, but not running as root.
+2026-10-09T12:25:54.106518+03:00 mail systemd[108703]: ubuntu-insights-collect.service: (This warning is only shown for the first unit using IP firewalling.)
+2026-10-09T12:25:54.114375+03:00 mail systemd[108703]: Starting ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent"...
+2026-10-09T12:25:54.130301+03:00 mail dbus-daemon[108726]: [session uid=1000 pid=108726 pidfd=5] AppArmor D-Bus mediation is enabled
+2026-10-09T12:25:54.132349+03:00 mail systemd[108703]: Starting ubuntu-insights-upload.service - "Upload collected and matured platform reports using Ubuntu Insights while respecting consent"...
+2026-10-09T12:25:54.139395+03:00 mail systemd[108703]: Started dbus.service - D-Bus User Message Bus.
+2026-10-09T12:25:54.181955+03:00 mail systemd[108703]: Started mpris-proxy.service - Bluetooth mpris proxy.
+2026-10-09T12:25:54.202404+03:00 mail systemd[108703]: Started wireplumber.service - Multimedia Service Session Manager.
+2026-10-09T12:25:54.206398+03:00 mail systemd[108703]: Started filter-chain.service - PipeWire filter chain daemon.
+2026-10-09T12:25:54.212344+03:00 mail systemd[108703]: Started pipewire-pulse.service - PipeWire PulseAudio.
+2026-10-09T12:25:54.212841+03:00 mail systemd[108703]: Reached target default.target - Main User Target.
+2026-10-09T12:25:54.223032+03:00 mail kernel: audit: type=1400 audit(1791537954.220:838): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=108736 comm="(ubuntu-insigh)" requested="userns_create" target="unprivileged_userns" execpath="/usr/lib/systemd/systemd-executor"
+2026-10-09T12:25:54.224038+03:00 mail kernel: audit: type=1400 audit(1791537954.222:839): apparmor="AUDIT" operation="userns_create" class="namespace" info="Userns create - transitioning profile" profile="unconfined" pid=108733 comm="(ubuntu-insigh)" requested="userns_create" target="unprivileged_userns" execpath="/usr/lib/systemd/systemd-executor"
+2026-10-09T12:25:54.228037+03:00 mail kernel: audit: type=1400 audit(1791537954.226:840): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=108736 comm="(ubuntu-insigh)" capability=21  capname="sys_admin"
+2026-10-09T12:25:54.229015+03:00 mail kernel: audit: type=1400 audit(1791537954.227:841): apparmor="DENIED" operation="capable" class="cap" profile="unprivileged_userns" pid=108733 comm="(ubuntu-insigh)" capability=21  capname="sys_admin"
+2026-10-09T12:25:54.310346+03:00 mail systemd[108703]: Finished ubuntu-insights-upload.service - "Upload collected and matured platform reports using Ubuntu Insights while respecting consent".
+2026-10-09T12:25:54.316030+03:00 mail kernel: audit: type=1400 audit(1791537954.314:842): apparmor="DENIED" operation="getattr" class="file" info="Failed name lookup - disconnected path" error=-13 profile="unprivileged_userns" name="" pid=108780 comm="systemd-detect-" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2026-10-09T12:25:54.610229+03:00 mail dbus-daemon[108726]: [session uid=1000 pid=108726 pidfd=5] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.10' (uid=1000 pid=108730 comm="/snap/snapd/current/usr/bin/snap run prompting-cli" label="unconfined")
+2026-10-09T12:25:54.618304+03:00 mail systemd[108703]: Starting xdg-document-portal.service - flatpak document portal service...
+2026-10-09T12:25:54.719083+03:00 mail dbus-daemon[108726]: [session uid=1000 pid=108726 pidfd=5] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.11' (uid=1000 pid=108845 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+2026-10-09T12:25:54.725533+03:00 mail systemd[108703]: Starting xdg-permission-store.service - sandboxed app permission store...
+2026-10-09T12:25:54.749461+03:00 mail wireplumber[108754]: [119:57:07.188706267] [108754]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0
+2026-10-09T12:25:54.749800+03:00 mail wireplumber[108754]: [119:57:07.189330380] [108873] ERROR DmaBufAllocator dma_buf_allocator.cpp:119 Could not open any dma-buf provider
+2026-10-09T12:25:54.794455+03:00 mail dbus-daemon[108726]: [session uid=1000 pid=108726 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2026-10-09T12:25:54.797281+03:00 mail systemd[108703]: Started xdg-permission-store.service - sandboxed app permission store.
+2026-10-09T12:25:54.808995+03:00 mail dbus-daemon[108726]: [session uid=1000 pid=108726 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
+2026-10-09T12:25:54.810850+03:00 mail systemd[108703]: Started xdg-document-portal.service - flatpak document portal service.
+2026-10-09T12:25:54.821050+03:00 mail kernel: audit: type=1400 audit(1791537954.819:843): apparmor="DENIED" operation="capable" class="cap" profile="fusermount3" pid=108888 comm="fusermount3" capability=1  capname="dac_override"
+2026-10-09T12:25:54.821089+03:00 mail kernel: audit: type=1400 audit(1791537954.819:844): apparmor="DENIED" operation="capable" class="cap" profile="fusermount3" pid=108888 comm="fusermount3" capability=7  capname="setuid"
+2026-10-09T12:25:54.824032+03:00 mail kernel: audit: type=1400 audit(1791537954.820:845): apparmor="DENIED" operation="capable" class="cap" profile="fusermount3" pid=108889 comm="fusermount3" capability=7  capname="setuid"
+2026-10-09T12:25:55.192704+03:00 mail prompting-client.daemon[108730]: #033[2m2026-10-09T09:25:55.192100Z#033[0m #033[32m INFO#033[0m #033[2mprompting_client::snapd_client#033[0m#033[2m:#033[0m using the snapd snap socket at address: /run/snapd-snap.socket
+2026-10-09T12:25:55.207736+03:00 mail prompting-client.daemon[108730]: #033[2m2026-10-09T09:25:55.207590Z#033[0m #033[33m WARN#033[0m #033[2mprompting_client::snapd_client#033[0m#033[2m:#033[0m the prompting feature is not enabled: exiting
+2026-10-09T12:25:55.381000+03:00 mail im-config[109043]: @ IM_CONFIG_ENTRY='profile' XDG_SESSION_TYPE ='tty' UID=1000 PID=108901 PPID=108885
+2026-10-09T12:25:55.398269+03:00 mail im-config[109045]:   GTK_IM_MODULE='' QT_IM_MODULE='' CLUTTER_IM_MODULE='' SDL_IM_MODULE='' XMODIFIERS=''
+2026-10-09T12:25:55.414922+03:00 mail im-config[109047]:   Set IM_CONFIG_CURRENT_DESKTOP <- 'UNDEFINED'
+2026-10-09T12:25:56.012655+03:00 mail ubuntu-insights[108733]: 2026/10/09 12:25:56 WARN failed to collect screen info error="failed to run xrandr: exit status 1"
+2026-10-09T12:25:56.046612+03:00 mail ubuntu-insights[108733]: {
+2026-10-09T12:25:56.046761+03:00 mail ubuntu-insights[108733]:   "insightsVersion": "0.9.3ubuntu",
+2026-10-09T12:25:56.046802+03:00 mail ubuntu-insights[108733]:   "collectionTime": 1791537954,
+2026-10-09T12:25:56.047039+03:00 mail ubuntu-insights[108733]:   "systemInfo": {
+2026-10-09T12:25:56.047086+03:00 mail ubuntu-insights[108733]:     "hardware": {
+2026-10-09T12:25:56.047122+03:00 mail ubuntu-insights[108733]:       "product": {
+2026-10-09T12:25:56.047165+03:00 mail ubuntu-insights[108733]:         "family": "ProLiant",
+2026-10-09T12:25:56.047214+03:00 mail ubuntu-insights[108733]:         "name": "ProLiant MicroServer Gen10",
+2026-10-09T12:25:56.047245+03:00 mail ubuntu-insights[108733]:         "vendor": "HPE"
+2026-10-09T12:25:56.047275+03:00 mail ubuntu-insights[108733]:       },
+2026-10-09T12:25:56.047314+03:00 mail ubuntu-insights[108733]:       "cpu": {
+2026-10-09T12:25:56.047345+03:00 mail ubuntu-insights[108733]:         "name": "AMD Opteron(tm) X3216 APU",
+2026-10-09T12:25:56.047376+03:00 mail ubuntu-insights[108733]:         "vendor": "AuthenticAMD",
+2026-10-09T12:25:56.047408+03:00 mail ubuntu-insights[108733]:         "architecture": "x86_64",
+2026-10-09T12:25:56.047437+03:00 mail ubuntu-insights[108733]:         "cpus": 2,
+2026-10-09T12:25:56.047531+03:00 mail ubuntu-insights[108733]:         "sockets": 1,
+2026-10-09T12:25:56.047567+03:00 mail ubuntu-insights[108733]:         "coresPerSocket": 2,
+2026-10-09T12:25:56.047603+03:00 mail ubuntu-insights[108733]:         "threadsPerCore": 1
+2026-10-09T12:25:56.047638+03:00 mail ubuntu-insights[108733]:       },
+2026-10-09T12:25:56.047671+03:00 mail ubuntu-insights[108733]:       "gpus": [
+2026-10-09T12:25:56.047710+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.047748+03:00 mail ubuntu-insights[108733]:           "device": "0x9874",
+2026-10-09T12:25:56.047783+03:00 mail ubuntu-insights[108733]:           "vendor": "0x1002",
+2026-10-09T12:25:56.047819+03:00 mail ubuntu-insights[108733]:           "driver": "amdgpu"
+2026-10-09T12:25:56.047853+03:00 mail ubuntu-insights[108733]:         }
+2026-10-09T12:25:56.047926+03:00 mail ubuntu-insights[108733]:       ],
+2026-10-09T12:25:56.047980+03:00 mail ubuntu-insights[108733]:       "memory": {
+2026-10-09T12:25:56.048020+03:00 mail ubuntu-insights[108733]:         "size": 14931
+2026-10-09T12:25:56.048081+03:00 mail ubuntu-insights[108733]:       },
+2026-10-09T12:25:56.048117+03:00 mail ubuntu-insights[108733]:       "disks": [
+2026-10-09T12:25:56.048153+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.048187+03:00 mail ubuntu-insights[108733]:           "size": 476979,
+2026-10-09T12:25:56.048221+03:00 mail ubuntu-insights[108733]:           "type": "disk",
+2026-10-09T12:25:56.048255+03:00 mail ubuntu-insights[108733]:           "children": [
+2026-10-09T12:25:56.048289+03:00 mail ubuntu-insights[108733]:             {
+2026-10-09T12:25:56.048326+03:00 mail ubuntu-insights[108733]:               "size": 1024,
+2026-10-09T12:25:56.048363+03:00 mail ubuntu-insights[108733]:               "type": "part"
+2026-10-09T12:25:56.048396+03:00 mail ubuntu-insights[108733]:             },
+2026-10-09T12:25:56.048431+03:00 mail ubuntu-insights[108733]:             {
+2026-10-09T12:25:56.048468+03:00 mail ubuntu-insights[108733]:               "size": 475852,
+2026-10-09T12:25:56.048509+03:00 mail ubuntu-insights[108733]:               "type": "part"
+2026-10-09T12:25:56.048544+03:00 mail ubuntu-insights[108733]:             }
+2026-10-09T12:25:56.048582+03:00 mail ubuntu-insights[108733]:           ]
+2026-10-09T12:25:56.048618+03:00 mail ubuntu-insights[108733]:         },
+2026-10-09T12:25:56.048659+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.048692+03:00 mail ubuntu-insights[108733]:           "size": 3774873,
+2026-10-09T12:25:56.048724+03:00 mail ubuntu-insights[108733]:           "type": "disk"
+2026-10-09T12:25:56.048757+03:00 mail ubuntu-insights[108733]:         },
+2026-10-09T12:25:56.048788+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.048820+03:00 mail ubuntu-insights[108733]:           "size": 3774873,
+2026-10-09T12:25:56.048852+03:00 mail ubuntu-insights[108733]:           "type": "disk"
+2026-10-09T12:25:56.048884+03:00 mail ubuntu-insights[108733]:         },
+2026-10-09T12:25:56.048916+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.048948+03:00 mail ubuntu-insights[108733]:           "size": 3774873,
+2026-10-09T12:25:56.049640+03:00 mail ubuntu-insights[108733]:           "type": "disk"
+2026-10-09T12:25:56.049755+03:00 mail ubuntu-insights[108733]:         },
+2026-10-09T12:25:56.049814+03:00 mail ubuntu-insights[108733]:         {
+2026-10-09T12:25:56.049872+03:00 mail ubuntu-insights[108733]:           "size": 3774873,
+2026-10-09T12:25:56.049929+03:00 mail ubuntu-insights[108733]:           "type": "disk"
+2026-10-09T12:25:56.050050+03:00 mail ubuntu-insights[108733]:         }
+2026-10-09T12:25:56.050113+03:00 mail ubuntu-insights[108733]:       ]
+2026-10-09T12:25:56.050206+03:00 mail ubuntu-insights[108733]:     },
+2026-10-09T12:25:56.050270+03:00 mail ubuntu-insights[108733]:     "software": {
+2026-10-09T12:25:56.050327+03:00 mail ubuntu-insights[108733]:       "os": {
+2026-10-09T12:25:56.050388+03:00 mail ubuntu-insights[108733]:         "family": "linux",
+2026-10-09T12:25:56.050449+03:00 mail ubuntu-insights[108733]:         "distribution": "Ubuntu",
+2026-10-09T12:25:56.050511+03:00 mail ubuntu-insights[108733]:         "version": "26.04"
+2026-10-09T12:25:56.050615+03:00 mail ubuntu-insights[108733]:       },
+2026-10-09T12:25:56.050673+03:00 mail ubuntu-insights[108733]:       "timezone": "MSK",
+2026-10-09T12:25:56.050729+03:00 mail ubuntu-insights[108733]:       "language": "en_US",
+2026-10-09T12:25:56.050788+03:00 mail ubuntu-insights[108733]:       "bios": {
+2026-10-09T12:25:56.050852+03:00 mail ubuntu-insights[108733]:         "vendor": "American Megatrends Inc.",
+2026-10-09T12:25:56.050908+03:00 mail ubuntu-insights[108733]:         "version": "5.12"
+2026-10-09T12:25:56.050963+03:00 mail ubuntu-insights[108733]:       }
+2026-10-09T12:25:56.051066+03:00 mail ubuntu-insights[108733]:     }
+2026-10-09T12:25:56.051156+03:00 mail ubuntu-insights[108733]:   }
+2026-10-09T12:25:56.051242+03:00 mail ubuntu-insights[108733]: }
+2026-10-09T12:25:56.051347+03:00 mail ubuntu-insights[108733]: 2026/10/09 12:25:56 ERROR failed to collect insights: insights write failed: report already exists for this period
+2026-10-09T12:25:56.052469+03:00 mail systemd[108703]: Finished ubuntu-insights-collect.service - "Collect platform report using Ubuntu Insights while respecting consent".
+2026-10-09T12:25:56.053319+03:00 mail systemd[108703]: Startup finished in 2.436s.
+2026-10-09T12:25:56.055040+03:00 mail systemd[108703]: ubuntu-insights-collect.service: Consumed 1.211s CPU time over 1.937s wall clock time, 36.7M memory peak.
+2026-10-09T12:27:50.217456+03:00 mail kernel: audit: type=1400 audit(1791538070.215:846): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:28:59.862320+03:00 mail smartd[937]: Device: /dev/sda [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 73 to 72
+2026-10-09T12:28:59.910933+03:00 mail smartd[937]: Device: /dev/sdb [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 67 to 66
+2026-10-09T12:28:59.911460+03:00 mail smartd[937]: Device: /dev/sdb [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 33 to 34
+2026-10-09T12:29:13.547054+03:00 mail kernel: audit: type=1400 audit(1791538153.545:847): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D20557064617465 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:13.971045+03:00 mail kernel: audit: type=1400 audit(1791538153.969:848): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D20557064617465 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:14.173033+03:00 mail kernel: audit: type=1400 audit(1791538154.171:849): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D20557064617465 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:14.348027+03:00 mail kernel: audit: type=1400 audit(1791538154.345:850): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D20557064617465 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:14.564049+03:00 mail kernel: audit: type=1400 audit(1791538154.562:851): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D2053656E644D6170 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:14.769042+03:00 mail kernel: audit: type=1400 audit(1791538154.767:852): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D53204D504D2053656E644D6170 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:16.740050+03:00 mail kernel: audit: type=1400 audit(1791538156.738:853): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:17.174050+03:00 mail kernel: audit: type=1400 audit(1791538157.172:854): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:24.348053+03:00 mail kernel: audit: type=1400 audit(1791538164.346:855): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:24.591041+03:00 mail kernel: audit: type=1400 audit(1791538164.589:856): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:30.422047+03:00 mail kernel: audit: type=1400 audit(1791538170.420:857): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:40.222046+03:00 mail kernel: audit: type=1400 audit(1791538180.220:858): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:40.397032+03:00 mail kernel: audit: type=1400 audit(1791538180.395:859): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:40.585037+03:00 mail kernel: audit: type=1400 audit(1791538180.583:860): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:40.843056+03:00 mail kernel: audit: type=1400 audit(1791538180.841:861): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D532048747470436C69656E7443 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:29:43.586178+03:00 mail kernel: audit: type=1400 audit(1791538183.584:862): apparmor="DENIED" operation="open" class="file" profile="snap.plexmediaserver.plexmediaserver" name="/sys/devices/virtual/dmi/id/board_vendor" pid=1520 comm=504D5320475450 requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2026-10-09T12:30:01.860030+03:00 mail CRON[109268]: (root) CMD (if [ -x /etc/init.d/anacron ] && ! [ -d /run/systemd/system ]; then exec /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2026-10-09T12:30:04.183257+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:30:04.227121+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:30:04.227521+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:31:35.178306+03:00 mail systemd[108703]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache skipped, unmet condition check ConditionPathExists=/home/kvg/.launchpadlib/api.launchpad.net/cache
+2026-10-09T12:32:34.200914+03:00 mail systemd[1]: Started anacron.service - Run anacron jobs.
+2026-10-09T12:32:34.216896+03:00 mail anacron[109325]: Anacron 2.3 started on 2026-10-09
+2026-10-09T12:32:34.217485+03:00 mail anacron[109325]: Normal exit (0 jobs run)
+2026-10-09T12:32:34.219715+03:00 mail systemd[1]: anacron.service: Deactivated successfully.
+2026-10-09T12:33:54.209648+03:00 mail systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2026-10-09T12:33:54.432890+03:00 mail systemd[1]: update-notifier-download.service: Deactivated successfully.
+2026-10-09T12:33:54.434312+03:00 mail systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2026-10-09T12:35:01.894706+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T12:35:01.896467+03:00 mail CRON[109370]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T12:35:02.083629+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T12:35:02.084206+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T12:35:51.369725+03:00 mail postfix/smtpd[109414]: connect from unknown[46.151.182.181]
+2026-10-09T12:35:51.638440+03:00 mail postfix/smtpd[109414]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T12:39:01.922743+03:00 mail CRON[109420]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T12:39:03.479749+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T12:39:03.704878+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T12:39:03.706417+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T12:39:11.835752+03:00 mail postfix/anvil[109416]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 12:35:51
+2026-10-09T12:39:11.836320+03:00 mail postfix/anvil[109416]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 12:35:51
+2026-10-09T12:39:11.836928+03:00 mail postfix/anvil[109416]: statistics: max cache size 1 at Oct  9 12:35:51
+2026-10-09T12:40:00.687471+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:40:00.730608+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:40:00.731165+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:43:54.276853+03:00 mail systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-10-09T12:43:54.342204+03:00 mail systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-10-09T12:43:54.342773+03:00 mail systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-10-09T12:44:03.470504+03:00 mail snapd[953]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+2026-10-09T12:44:03.470768+03:00 mail snapd[953]: cache.go:320: removed 0 entries/    0 from downloads cache
+2026-10-09T12:48:44.573539+03:00 mail postfix/smtpd[109627]: connect from unknown[102.220.161.126]
+2026-10-09T12:49:04.355822+03:00 mail postfix/smtpd[109627]: NOQUEUE: lost connection after AUTH from unknown[102.220.161.126]
+2026-10-09T12:49:04.356162+03:00 mail postfix/smtpd[109627]: disconnect from unknown[102.220.161.126] ehlo=1 auth=0/1 rset=1 commands=2/3
+2026-10-09T12:50:04.326954+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T12:50:04.370321+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T12:50:04.370699+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T12:52:24.537891+03:00 mail postfix/anvil[109629]: statistics: max connection rate 1/60s for (smtp:102.220.161.126) at Oct  9 12:48:44
+2026-10-09T12:52:24.538656+03:00 mail postfix/anvil[109629]: statistics: max connection count 1 for (smtp:102.220.161.126) at Oct  9 12:48:44
+2026-10-09T12:52:24.538798+03:00 mail postfix/anvil[109629]: statistics: max cache size 1 at Oct  9 12:48:44
+2026-10-09T12:58:59.319138+03:00 mail smartd[937]: Device: /dev/sda [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 72 to 73
+2026-10-09T12:59:04.684683+03:00 mail smartd[937]: Device: /dev/sdb [SAT], SMART Usage Attribute: 190 Airflow_Temperature_Cel changed from 66 to 68
+2026-10-09T12:59:04.685013+03:00 mail smartd[937]: Device: /dev/sdb [SAT], SMART Usage Attribute: 194 Temperature_Celsius changed from 34 to 32
+2026-10-09T13:00:04.393814+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T13:00:04.440553+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T13:00:04.441073+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T13:04:17.697643+03:00 mail postfix/smtpd[109924]: connect from unknown[46.151.182.181]
+2026-10-09T13:04:17.970115+03:00 mail postfix/smtpd[109924]: disconnect from unknown[46.151.182.181] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T13:04:46.629243+03:00 mail postfix/smtpd[109924]: connect from unknown[158.94.211.131]
+2026-10-09T13:04:47.467006+03:00 mail postfix/smtpd[109924]: disconnect from unknown[158.94.211.131] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+2026-10-09T13:05:01.960064+03:00 mail systemd[1]: Starting roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles...
+2026-10-09T13:05:01.962448+03:00 mail CRON[109960]: (www-data) CMD (test -d /run/systemd/system || /usr/share/roundcube/bin/gc.sh)
+2026-10-09T13:05:02.140039+03:00 mail systemd[1]: roundcube-gc.service: Deactivated successfully.
+2026-10-09T13:05:02.140270+03:00 mail systemd[1]: Finished roundcube-gc.service - Purge expired Roundcube sessions, caches and tempfiles.
+2026-10-09T13:05:52.677103+03:00 mail dovecot: imap-login: Login aborted: Connection closed: SSL_accept() failed: error:0A000102:SSL routines::unsupported protocol (disconnected during TLS handshake) (tls_handshake_not_finished): user=<>, rip=198.235.24.163, lip=192.168.16.40, TLS handshaking: SSL_accept() failed: error:0A000102:SSL routines::unsupported protocol, session=<wD80fmVdGc/G6xij>
+2026-10-09T13:08:07.560356+03:00 mail postfix/anvil[109926]: statistics: max connection rate 1/60s for (smtp:46.151.182.181) at Oct  9 13:04:17
+2026-10-09T13:08:07.564420+03:00 mail postfix/anvil[109926]: statistics: max connection count 1 for (smtp:46.151.182.181) at Oct  9 13:04:17
+2026-10-09T13:08:07.564746+03:00 mail postfix/anvil[109926]: statistics: max cache size 2 at Oct  9 13:04:46
+2026-10-09T13:09:01.985822+03:00 mail CRON[110037]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+2026-10-09T13:09:03.480449+03:00 mail systemd[1]: Starting phpsessionclean.service - Clean php session files...
+2026-10-09T13:09:03.698448+03:00 mail systemd[1]: phpsessionclean.service: Deactivated successfully.
+2026-10-09T13:09:03.699181+03:00 mail systemd[1]: Finished phpsessionclean.service - Clean php session files.
+2026-10-09T13:10:04.467778+03:00 mail systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T13:10:04.509654+03:00 mail systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T13:10:04.510092+03:00 mail systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
