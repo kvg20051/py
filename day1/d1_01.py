@@ -8,8 +8,9 @@
 
 
 def main():
-    pass  # ваш код
-
+#    pass  # ваш код
+    s=input()
+    print(f"Hi,", s)
 
 if __name__ == "__main__":
     main()

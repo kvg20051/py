@@ -5,10 +5,15 @@
 целочисленное деление (//) и остаток (%).
 """
 
+import sys
 
 def main():
-    pass  # ваш код
-
+    n1, n2 = map (int, input().split())
+    print(f"{n1+n2}")
+    print(f"{n1-n2}")
+    print(f"{n1 * n2}")
+    print(f"{n1//n2}")
+    print(f"{n1 % n2}")
 
 if __name__ == "__main__":
     main()
