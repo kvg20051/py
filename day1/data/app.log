@@ -1,0 +1,30 @@
+2026-10-11 09:00:01 INFO Service started
+2026-10-11 09:00:02 INFO Connected to database db01
+2026-10-11 09:00:05 INFO User ivanov logged in
+2026-10-11 09:01:12 WARNING High memory usage: 81%
+2026-10-11 09:01:40 INFO Backup job started
+2026-10-11 09:02:03 ERROR Disk full on /var/lib/backup
+2026-10-11 09:02:04 ERROR Backup job failed
+2026-10-11 09:03:15 INFO User petrova logged in
+2026-10-11 09:04:22 WARNING Slow query: 3.2s
+2026-10-11 09:05:00 INFO Scheduled task sync_ldap started
+2026-10-11 09:05:07 INFO Scheduled task sync_ldap finished
+2026-10-11 09:06:31 ERROR Connection timeout to jira.internal
+2026-10-11 09:06:45 INFO Retrying connection to jira.internal
+2026-10-11 09:06:50 INFO Connected to jira.internal
+2026-10-11 09:08:10 WARNING SSL certificate for git.internal expires in 7 days
+2026-10-11 09:10:00 INFO User sidorov logged in
+2026-10-11 09:11:23 ERROR Permission denied: /etc/app/config.yaml
+2026-10-11 09:12:00 INFO Config reloaded
+2026-10-11 09:13:45 WARNING High memory usage: 88%
+2026-10-11 09:15:00 INFO Cache cleared
+2026-10-11 09:16:30 INFO User ivanov logged out
+2026-10-11 09:17:12 ERROR Disk full on /var/lib/backup
+2026-10-11 09:18:00 WARNING Retry queue size: 120
+2026-10-11 09:20:00 INFO Health check OK
+2026-10-11 09:21:05 ERROR Failed to send notification to Slack: 503
+2026-10-11 09:22:40 INFO User kuznetsov logged in
+2026-10-11 09:25:00 WARNING Slow query: 5.7s
+2026-10-11 09:27:18 INFO Health check OK
+2026-10-11 09:28:59 ERROR Database connection lost: db01
+2026-10-11 09:29:10 INFO Connected to database db01
